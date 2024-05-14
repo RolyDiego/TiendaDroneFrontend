@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(../img/dron3.jpg);
+    background-size: cover;
+}
+
+.container-form {
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
+    height: 500px;
+    width: 950px;
+    transition: all 1s ease;
+    margin: 10px;
+}
+
+.information {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(11, 165, 185, 0.8);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.info-childs {
+    padding: 0 30px;
+}
+
+.info-childs h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.info-childs p {
+    margin: 15px 0;
+    color: #555;
+}
+
+.info-childs input[type="button"] {
+    background-color: transparent;
+    outline: none;
+    border: solid 2px #000011;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #010116;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.info-childs input[type="button"]:hover {
+    background-color: #000011;
+    border: none;
+    color: #fff;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-information {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.form-information-childs {
+    padding: 0 30px;
+}
+
+.form-information-childs h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.icons {
+    margin: 15px 0;
+}
+
+.icons i {
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    margin: 0 10px;
+    color: #000011;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.icons i:hover {
+    background-color: #000011;
+    color: #fff;
+}
+
+form {
+    margin: 30px 0 0 0;
+}
+
+form label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 0 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+form label input {
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    color: #000011;
+    
+}
+
+form label i {
+    color: #000011;
+}
+
+form input[type="submit"] {
+    background-color: #000011;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="submit"]:hover {
+    background-color: #f8f8f8;
+    color: #000011;
+}
+
+.hide{
+    position: absolute;
+    transform: translatey(-300%);
+}
+
